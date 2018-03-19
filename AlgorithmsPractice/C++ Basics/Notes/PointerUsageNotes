@@ -1,0 +1,12 @@
+DOUBLE POINTER:  
+
+in function declaration/definition :  void foo(int **p ) { }
+inside function use 			   :  *p -> something
+in main() use					   :  int * p;
+									  foo(&p) ;
+
+
+POINTER REFERENCE
+
+in function declaration/definition : void foo( int *&p){ }
+inside function use				   : 

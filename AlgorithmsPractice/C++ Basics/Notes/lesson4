@@ -1,0 +1,18 @@
+l-value : object that occupies some identifiable location in memory
+r-value : any object that is not an l-value
+
+int i;
+int *p = &i;
+i = 3;
+
+class dog;
+dog  
+
+
+//const integer reference can be initializ3d with an r-value
+// l-value can be implicitly transformed into an r-value
+	but vice versa is not possible
+
+r-value can be used to create an l-value, eg
+int v[3];
+*(v+2) = 4 here, v+2 is l-value 

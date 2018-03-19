@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/PairMapVectorAndShit.cpp
+iostream
+-
+string
+-
+unordered_map
+-
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/Practice.cpp
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/Practice1.cpp
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/Practice2.cpp
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/QueueUsingStack.cpp
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/ReverseLinkedList.cpp
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/StackUsingQueue.cpp
+
+/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/main.cpp
+
