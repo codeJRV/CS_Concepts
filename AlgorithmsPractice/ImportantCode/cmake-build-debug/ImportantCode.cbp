@@ -84,30 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/PairMapVectorAndShit.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/Practice.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/Practice1.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/Practice2.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/QueueUsingStack.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/ReverseLinkedList.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/StackUsingQueue.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
-		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/main.cpp">
-			<Option target="ImportantCode"/>
-		</Unit>
 		<Unit filename="/home/jrv/MyStuff/CS_Concepts/AlgorithmsPractice/ImportantCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
