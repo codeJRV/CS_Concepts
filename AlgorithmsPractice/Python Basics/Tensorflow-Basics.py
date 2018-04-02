@@ -1,5 +1,6 @@
 # Notes
 
+import tensorflow as tf
 
 ## Linear Regression Model in Tensorflow
 
@@ -124,6 +125,22 @@ image_width = 32;
 flat = image_width * image_height
 class_output = 10 # Number of classes
 
+# Step 1   : create placeholders for the image flattened
+# Step 2   : create placeholdrer for the output classification
+
+# Step 3   : reshape the placeholder from step1
+# Step 4   : create a variable for Weight and Bias using truncated normal :  Size and dimesions are unclear
+
+# Step 5   : create a convoltional layer tf.nn.conv2d + bias
+# Step 6   : create an activational layer tf.nn.relu
+# Step 7   : create an pooling layer    tf.nn.max_pool
+
+# step 8   : create another set of weights and biases
+# step 9   : add a dropout layer
+
+# step 10   : 
+
+
 x = tf.placeholder(tf.float32, shape=[None, flat])
 y = tf.placeholder(tf.float32, shape = [None, class_output])
 
@@ -134,5 +151,4 @@ b_conv1 = tf.Variable(tf.constant(0.1, shape=[32])) # need 32 biases for 32 outp
 ## Main part 
 convolve1= tf.nn.conv2d(x_image, W_conv1, strides=[1, 1, 1, 1], padding='SAME') + b_conv1
 h_conv1 = tf.nn.relu(convolve1)
-
 conv1 = tf.nn.max_pool(h_conv1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME') #max_pool_2x2
